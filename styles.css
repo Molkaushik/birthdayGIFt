@@ -1,7 +1,9 @@
 body{
+    /* background-image: url("images/bg.jfif"); */
+    background-size: contain;
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(#1a222a, #b0ecef);
     color: #ffffff;
 }
 
@@ -10,14 +12,14 @@ h1, h2, h3, h4, p{
 }
 
 #age{
-    background: #EFB0C9;
+    background: #26e1ce;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
 }
 
 #date{
-    background: #EFB0C9;
+    background: #26e1ce;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 0;
@@ -27,7 +29,7 @@ h1, h2, h3, h4, p{
     width: 168px;
     height: 168px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #26e1ce;
     margin-bottom: 10px;
 }
 
@@ -54,7 +56,7 @@ h1, h2, h3, h4, p{
     height: 400px;
     background-image: url("images/giftCover.jpg");
     background-size: cover;
-    border: 6px solid white;
+    border: 6px solid rgb(206, 236, 241);
     border-radius: 10px;
     margin: 0 auto;
 }
